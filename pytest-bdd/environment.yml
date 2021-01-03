@@ -1,0 +1,20 @@
+pytestname: pytest-bdd
+channels:
+  - conda-forge
+  - defaults
+  - auto
+dependencies:
+  - nodejs
+    #  - anaconda::mamba
+  - conda-forge::pytest-bdd
+  - anaconda::selenium
+  - python=3.7
+  - anaconda::flake8
+  - anaconda::pylint
+  - anaconda::pytest
+  # - conda-forge::python=3.9  # PyTorch compatibility preferably
+  - conda-forge::uritools
+  - pip
+  - requests
+  # - pip:
+  
